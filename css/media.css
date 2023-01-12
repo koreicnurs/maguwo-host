@@ -1,0 +1,136 @@
+@media screen and (max-width: 1165px) {
+  h1.domain__title {
+    font-size: 38px;
+  }
+
+  h4.column__title {
+    font-size: 22px;
+  }
+
+  .feature-container .feature-bottom {
+    flex-wrap: wrap;
+  }
+
+  .clients-top .clients-top-right {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  a.logo {
+    padding: 20px 0; 
+  }
+
+  .header-container .main-nav__list {
+    padding-bottom: 20px;
+  }
+
+  h1.domain__title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .service-container {
+    flex-direction: column;
+  }
+  
+  .container .feature-top {
+    margin-bottom: 60px;
+  }
+
+  body .service-block {
+    background: linear-gradient(to bottom, #202242 0%, #202242 50%, #ffe13e 50%, #ffe13e 100%);
+  }
+
+  .service-container .service-card {
+    max-width: 100%;
+  }
+
+  .feature-bottom .feature-bottom-column {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-bottom: 20px;
+  }
+
+  .clients-top .clients-top-left {
+    width: 50%;
+  }
+
+  .clients-block .clients-bottom {
+    flex-direction: column;
+  }
+  
+  .clients-block .client-msg { 
+    width: 90%;
+    align-self: center;
+    margin-bottom: 100px;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  a.logo {
+    text-align: center;
+  }
+
+  .header-container .main-nav__list {
+    text-align: center;
+  }
+
+  .header-container .main-nav__list a{
+    font-size: 12px;
+  }
+
+  form.domain-form {
+    width: 85%;
+  }
+
+  input.domain-form__input {
+    width: 80%;
+  }
+
+  h3.service-card__title {
+    font-size: 25px;
+  }
+  
+  .feature-block .feature-top__title {
+    font-size: 35px;
+  }
+
+  .feature-block .feature-top__sub-title {
+    font-size: 18px;
+  }
+  
+  .feature-container .feature-bottom {
+    flex-direction: column;
+  }
+
+  .feature-bottom .feature-bottom-column {
+    max-width: 90%;
+  }
+
+  .clients-top {
+    flex-direction: column
+  }
+
+  .clients-top .clients-top-left {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  h5.clients-top-left__title {
+    text-align: center;
+  }
+
+  .clients-top .clients-top-right {
+    margin: 0 auto;
+  }
+}
